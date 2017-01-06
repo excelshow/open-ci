@@ -1,0 +1,40 @@
+1、controllers 
+    publish 方法一律用“下划线”拼接，且规则动词开头 [动词]{_名词}   
+        eg：
+            create_rule  
+            modify_rule
+            get_by_id
+            list
+            change_state_to_*
+            change_state_from_*_to_*
+
+    private 方法一律用驼峰 
+        eg：
+            checkParam
+
+
+2、base （controllers的继承）
+    统一 protected 命名用驼峰 get[名词]
+        eg：
+            getHeaders
+
+
+3、model
+    public 对应controllers方法名称
+    private 方法一律用驼峰 
+
+
+4、Error::code
+    ERROR_{动词}_[名词]_[错误类别]
+    错误类别：
+        ALREADY_EXISTS       已存在
+        NOT_EXISTS           不存在
+        CREATE_[名词]_FAILED  新增失败
+        MODIFY_[名词]_FAILED  修改失败
+        NOT_SET              未设置
+        STATE_INVALID        状态异常
+
+
+注：
+    {} 可存在可不存在    
+    [] 必须存在1
