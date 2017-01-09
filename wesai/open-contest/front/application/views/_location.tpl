@@ -1,0 +1,1 @@
+{if !empty($locationData[2])}{$locationData[2]}{/if}{if !empty($locationData[3])}{$locationData[3]}{/if}{if !empty($locationData[4])}{$locationData[4]}{/if}

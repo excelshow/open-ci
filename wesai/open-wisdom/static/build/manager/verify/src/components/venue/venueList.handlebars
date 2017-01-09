@@ -1,0 +1,85 @@
+{{#with this}}
+<div class="list-block media-list">
+    <ul>
+        <li class="item-content">
+            <div class="item-inner">
+                <div class="item-title-row">
+                    <div class="item-title">场馆名称</div>
+                    <div class="item-after">{{venue_name}}</div>
+                </div>
+            </div>
+        </li>
+        <li class="item-content">
+            <div class="item-inner">
+                <div class="item-title-row">
+                    <div class="item-title">场地名称</div>
+                    <div class="item-after">{{venue_res_name}}</div>
+                </div>
+            </div>
+        </li>
+        <li class="item-content">
+            <div class="item-inner">
+                <div class="item-title-row">
+                    <div class="item-title">日期</div>
+                    <div class="item-after">{{day}}</div>
+                </div>
+            </div>
+        </li>
+        <li class="item-content">
+            <div class="item-inner">
+                <div class="item-title-row">
+                    <div class="item-title">时间</div>
+                    <div class="item-after">{{start}}-{{end}}</div>
+                </div>
+            </div>
+        </li>
+        <li class="item-content">
+            <div class="item-inner">
+                <div class="item-title-row">
+                    <div class="item-title">下单时间</div>
+                    <div class="item-after">{{ctime}}</div>
+                </div>
+            </div>
+        </li>
+        <li class="item-content">
+            <div class="item-inner">
+                <div class="item-title-row">
+                    <div class="item-title">价格</div>
+                    <div class="item-after">{{price}}</div>
+                </div>
+            </div>
+        </li>
+        <li>
+            {{#if uploadfile}}
+            <div class="item-content">
+                <div class="item-inner">
+                    <div class="item-title-row">
+                        <div class="item-title">{{title}}</div>
+                    </div>
+                    <div class="item-text break-word"></div>
+                    <div class="item-text break-word"><img src="{{value}}?imageMogr2/thumbnail/750"></div>
+                </div>
+            </div>
+            {{else}}
+            <div class="item-content">
+                <div class="item-inner">
+                    <div class="item-title-row">
+                        <div class="item-title">{{title}}</div>
+                    </div>
+                    <div class="item-text break-word">{{value}}</div>
+                </div>
+            </div>
+            {{/if}}
+        </li>
+    </ul>
+</div>
+<div class="content-block">
+    <div class="row">
+        <div class="col-50"><a href="javascript:;" class="button button-big button-fill button-danger close-popup">取消</a></div>
+        <div class="col-50">
+            <a href="javascript:;" class="button button-big button-fill button-success" id="WicketButton" data-pk-order="{{code}}">
+                <div class="preloader preloader-white ven-preloader"></div><span>确定</span></a>
+        </div>
+    </div>
+</div>
+{{/with}}

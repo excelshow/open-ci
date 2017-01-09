@@ -1,0 +1,37 @@
+{{#each data}}
+<li>
+    {{#if pk_group}}{{!-- 多人列表 --}}
+        {{#compare ../type '==' 1}}
+        <a class="item-link item-content" href="/group/groupDetails/?cid={{fk_contest}}&group_id={{pk_group}}">
+        {{else}} 
+        <a class="item-link item-content" href="/group/join?group_id={{pk_group}}">
+        {{/compare}}
+            <div class="item-inner">
+                <div class="item-title-row padb5">
+                    <div class="item-title">{{name}}</div>
+                </div>
+                <div class="item-subtitle">{{leader_name}}</div>
+                {{#with contest_info}}
+                <div class="item-subtitle">活动时间:{{dateFormat sdate_start}}－{{dateFormat sdate_end}}</div>
+                {{/with}}
+            </div>
+        </a>
+    {{else}}{{!-- 团队列表 --}}
+        {{#compare ../type '==' 1}}
+        <a class="item-link item-content" href="/team/teamDetails?item_id={{fk_contest_items}}&team_id={{pk_team}}">
+        {{else}} 
+        <a class="item-link item-content" href="/team/join?&team_id={{pk_team}}">
+        {{/compare}}
+            <div class="item-inner">
+                <div class="item-title-row padb5">
+                    <div class="item-title">{{name}}</div>
+                </div>
+                <div class="item-subtitle">{{leader_name}}</div>
+                {{#with contest_info}}
+                <div class="item-subtitle">活动时间:{{dateFormat sdate_start}}－{{dateFormat sdate_end}}</div>
+                {{/with}}
+            </div>
+        </a>  
+    {{/if}}
+</li>
+{{/each}}

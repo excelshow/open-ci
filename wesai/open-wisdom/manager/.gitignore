@@ -1,0 +1,6 @@
+cache/templates_c/*.php
+.com.apple.timemachine.supported
+dump.rdb
+.DS_Store
+.idea/
+/application/config

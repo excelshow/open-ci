@@ -1,0 +1,18 @@
+{{#each this}}
+<li class="ancestor-main dashed-line-gray">
+	<div class="item-list-main">
+		<div class="item-tit">{{contest_item_name}}</div>
+		<div class="row no-gutter member-val ">
+			{{#with enrol_data_detail}}
+				{{#each this}}
+					<div class="col-33 line-clamp-val line-clamp1">{{eachVal value @index}}</div>
+				{{/each}}
+			{{/with}}
+			{{#compare groupState '==' 1}}
+				<div class="col-33 del-member-btn" data-enrol_data_id="{{pk_enrol_data}}">删除成员</div>
+			{{else}}
+			{{/compare}}
+		</div>
+	</div>
+</li>
+{{/each}}

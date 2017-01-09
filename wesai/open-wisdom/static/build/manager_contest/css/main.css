@@ -1,0 +1,164 @@
+/*global*/
+*{margin:0;padding:0}
+.container-fluid{padding:0}
+dt,dd,li{list-style:none}
+body{color:#333;font-size:1.3rem}
+.fR{float: right;}
+.whitebg{background:#fff}
+.mgreen{color:#01ca65}
+.pd10{padding:10px!important}
+.pdtbt10{padding:10px 0}
+.pd20{padding:20px}
+.pd_t40{padding-top:40px!important}
+.backcolor{color:#333!important}
+.mgr20{margin-right:20px!important}
+.mgr10{margin-right:10px!important}
+.nofloat{float: none!important}
+.auto_w{width:auto!important;float: left;}
+.img50{width:50px;height:50px}
+.img100{width:100px;height:100px}
+.act-btn{font-weight:bold;font-size:20px}
+.page_h1{border-bottom: 2px solid #01ca65;padding-bottom:10px;font-size:14px;overflow: hidden;padding-right:20px}
+.page_h1 strong{color:#f80;padding-left:20px}
+.mast-write {padding:0 5px;font-size:12px;color:#666;font-weight: normal;}
+.mast-write b{color:#f00;}
+/*setting*/
+.inner-bg{overflow:hidden;background:#f2f2f2;padding:15px 15px 0}
+.setting-content{overflow: hidden;zoom:1;position:relative;}
+.show-list,.setting-list{overflow:hidden;background:#fff}
+.show-list{width:70%;float: right;}
+.setting-list{width:22%;position:fixed;background:#fff;border-radius:4px;padding:20px 0}
+/*setting-right*/
+.q-list{padding:10px;border:solid 1px #ddd;min-height:500px;border-radius:2px;overflow-x:hidden;}
+.q-list li{clear:both;border:solid 1px #ddd;padding:10px;margin-top:10px;background-color: #fbfbfb;}
+.q-list li:nth-child(even){background:#fff}
+.q-list li:hover,.q-list li.hover{background:#d7d7d7;}
+.q-list li .q-top{padding:10px 0;border-bottom:dashed 1px #ddd;margin-bottom:5px}
+.q-list li .q-top i{font-style:normal;}
+.q-list li .q-top strong{padding:0 5px;color:#333}
+.q-list li .q-top strong  .form-control{width:40%;display: inline-block;}
+
+.q-list li .q-top .set-R{padding-right:20px}
+.q-list li .q-top .set-R label{padding-right:10px}
+.set-R label.del_item{padding-left:15px;cursor:pointer;}
+.q-list li .q-content{width:60%;padding:10px 0}
+.fi_txt, .fi_area {
+    border: 1px dashed #bbb;background-color: #fff;height: 30px;line-height: 30px;
+    width: 466px;text-indent: 10px;
+}
+.q-content.policy .form-control{
+    width: 100%;
+}
+.option-list{overflow: hidden;padding-left:30px}
+.option-list label{display: block;clear:both;padding:5px 0}
+.option-list label input{margin-right:5px}
+.option-list span{cursor: pointer;}
+.option-list .glyphicon-th-list{cursor: move;}
+.fi_area{height:100px}
+.err-show{color:#f00;padding:0 10px}
+.show-list{position:relative;min-height:500px;margin-bottom:100px}
+.save-btn-list{overflow: hidden;padding:10px 20px;width:100%;text-align:right;background:#f2f2f2}
+.layui-layer-dialog .layui-layer-content{overflow-x:hidden!important;}
+/*setting-left*/
+.setting-nav{overflow:hidden;padding:10px;color:#01ca65;background:#fff}
+.setting-list .setting-box{position: relative;}
+.group-list-box ul{overflow:hidden;}
+.group-list-box .g-list{overflow:hidden;background:#fff;}
+.g-list li{float:left;border-radius: 2px;cursor: pointer;color:#333;
+margin:8px 5px 0px 5px;padding:0 5px;color:#333;width:45%;height:34px;line-height:34px;
+vertical-align: middle;border:solid 1px #eee}
+.g-list li span{margin-right:5px}
+.g-list li.disabled{background:#999;}
+.tmp-setting{overflow: hidden;padding:10px;background:#fff}
+.tmpl-list dt{padding:5px 0}
+/*right-create*/
+
+/*foot*/
+.footer{padding:40px 20px 0;color:#666;margin-top:40px;font-size:12px;}
+.goTop{position: fixed;right:5%;bottom:10%;width:30px;height:30px;font-size:30px;cursor: pointer;z-index: 9999999}
+.goTop:hover{color:#293846;}
+/*alert*/
+.alert-box{position:fixed;top:10%;text-align: center;margin-left:35%;
+width:30%;background:#fff;border:solid 1px #ddd;padding:0;border-top:solid #5cb85c 2px;border-radius:5px;
+z-index:999666}
+.alert-box .tip-title{background:#5cb85c;color: #fff}
+.alert-box p{padding:10px}
+
+/*img-maskbox*/
+.popShow2{display:none;}
+.popBg2{width:100%;height:100%;background-color:#000;opacity:0.6;position:absolute;z-index:99997;left:0;top:0}
+.popCon2{width:100%;height:100%;position:fixed;left:0;top:30px;text-align:center;z-index:99998}
+.popCon2 img{border:2px solid #ddd;background-color:#555;cursor: pointer;}
+.popCon2 video{background-color:#111;padding:10px 20px}
+.popCon2 audio{background-color:#111;padding:20px 30px;margin-top:200px}
+.popClose2{width:60px;height:60px;text-align:center;line-height:60px;border-radius:50px;background-color:#111;position:fixed;z-index:99999;right:20px;top:20px;color:#fff;font-size:25px;cursor:pointer;font-weight:bold;}
+.popClose2:hover{opacity:0.6}
+/*loading-toast*/
+.loading-toast > div > i {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    width: 30px;
+    height: 30px;
+    margin-left: -15px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    border: 4px solid #29cc6d;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-top-color: rgba(51, 51, 51, 0);
+    -webkit-animation: my_fhload .8s infinite linear;
+    animation: my_fhload .8s infinite linear;
+}
+.loading-toast {
+    position: fixed;
+    z-index: 10003;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.loading-toast > div {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 40%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 85px;
+    min-height: 85px;
+    text-align: center;
+}
+.loading-toast > div:before {
+    content: "";
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    position: relative;
+    z-index: 1;
+    width: inherit;
+    height: 49px;
+}
+.loading-toast > div:after {
+    content: "努力加载中";
+    display: block;
+    margin-top: 5px;
+    padding-bottom: 8px;
+    min-width: 100%;
+    color: #999;
+    text-align: center;
+    white-space: pre-wrap;
+    font-size: 1.2rem !important;
+    line-height: 1.3;
+}
+@-webkit-keyframes my_fhload {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}

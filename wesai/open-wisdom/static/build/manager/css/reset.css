@@ -1,0 +1,34 @@
+@charset "UTF-8";
+html { -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; -webkit-user-select: none; user-select: none; font-size: 62.5%; }
+
+body { font-family: 'PingFang SC','Hiragino Sans GB','Helvetica Neue',Helvetica,'Microsoft YaHei',Arial,sans-serif; font-size: 12px; font-size: 1.2rem; }
+
+/* 去除iPhone中默认的input样式 */
+input[type="submit"], input[type="reset"], input[type="button"], input[type="text"] { -webkit-appearance: none; resize: none; outline: none; }
+
+input[type="radio"], input[type="checkbox"] { margin: 3px 0.5rem; padding: initial; border: solid 1px #ffb500; }
+
+/* 初始化 */
+body, div, ul, li, ol, h1, h2, h3, h4, h5, h6, input, textarea, select, p, dl, dt, dd, a, img, button, form, table, th, tr, td, tbody, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { margin: 0; padding: 0; border: none; }
+
+/* 设置HTML5元素为块 */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+audio, canvas, progress, video { display: inline-block; vertical-align: baseline; }
+
+.clearfix:after { content: ""; display: block; visibility: hidden; height: 0; clear: both; }
+
+.clearfix { zoom: 1; }
+
+ul, ol { list-style: none; }
+
+em, i { font-style: normal; }
+
+a { text-decoration: none; color: #fff; }
+
+img { border: none; }
+
+/* 图片自适应 */
+img { max-width: 100%; -ms-interpolation-mode: bicubic; /*为了照顾ie图片缩放失真*/ }
+
+* { -ms-word-break: break-all; word-break: break-all; -ms-word-wrap: break-word; word-wrap: break-word; -webkit-tap-highlight-color: transparent; }

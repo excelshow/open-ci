@@ -1,0 +1,29 @@
+{{#each data}}
+<div class="card contest-list mab10 contest-list-index">
+	<a class="lebal-block" href="/contest/detail?cid={{pk_contest}}">
+		<div valign="bottom" class="card-header color-white no-border no-padding">
+			<img class='card-cover' src="{{../page_vars.CDN_URL}}/{{banner}}?imageMogr2/thumbnail/720x240" alt="">
+		</div>
+		<div class="card-content">
+			<div class="mab10 mat10">
+				<div class="item-title font-sise18 line-clamp2 line-clamp paddr3">{{name}}</div>
+				{{#compare show_enrol_data_count '==' 1}}
+					<div class="red-color mat5"><i class="iconfont mar5">&#xe617;</i>已售：{{#if enrol_data_count}}{{enrol_data_count}}{{else}}0{{/if}}</div>
+				{{/compare}}
+				<div class="color-gray mat5"><i class="iconfont mar5">&#xe60f;</i>{{#with locationData}}{{1}}{{2}}{{3}}{{4}}{{#each this}}{{/each}}{{/with}} {{location}}</div>
+				<div class="mat5 ub-flex">
+					<time class="color-gray ub-f1 line-clamp line-clamp1"><i class="iconfont mar5">&#xe607;</i>{{dateFormat sdate_start}}-{{dateFormat sdate_end}}</time>
+					{{#publish publish_state ../publish_state}}
+					 	<div class="red-color{{!-- contest-states --}}"><i class="iconfont mar5">&#xe60a;</i>{{publish_state}}</div>
+					{{else}}
+					 	<div class="gray-color{{!-- contest-states --}}"><i class="iconfont mar5">&#xe60a;</i>{{publish_state}}</div>
+					{{/publish}}
+				</div>
+			</div>
+			<div class="item-logo">
+				<img class='img-cover' src="{{../page_vars.CDN_URL}}/{{logo}}" alt="">
+			</div>
+		</div>
+	</a>
+</div>
+{{/each}}

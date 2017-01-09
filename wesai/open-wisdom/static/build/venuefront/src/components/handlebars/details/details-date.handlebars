@@ -1,0 +1,15 @@
+<div class="tab-content">
+    <div class="tabs">
+        <div id="tab1" class="tab active">
+            <div class="row date-screening no-gutter">
+                {{#date}}
+                <div class="col-25 screening-item">
+                    <h2>{{week}}</h2>
+                    <time>{{month}}月{{day}}日</time>
+                    <a href="javascript:;" class="skip-session button button-round" data-date="{{dateTime}}">预订</a>
+                </div>
+                {{/date}}
+            </div>
+        </div>
+    </div>
+</div>

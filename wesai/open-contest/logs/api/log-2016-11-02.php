@@ -1,0 +1,6 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2016-11-02 14:21:07 --> Severity: Warning --> require_once(/home/liangkaixuan/code/open-contest/api/application/controllers/voucher/Base.php): failed to open stream: No such file or directory /home/liangkaixuan/code/open-contest/api/application/controllers/voucher/Rule.php 3
+ERROR - 2016-11-02 14:21:07 --> Severity: Compile Error --> require_once(): Failed opening required '/home/liangkaixuan/code/open-contest/api/application/controllers/voucher/Base.php' (include_path='.:/usr/share/pear:/usr/share/php') /home/liangkaixuan/code/open-contest/api/application/controllers/voucher/Rule.php 3
+ERROR - 2016-11-02 14:21:33 --> Severity: Warning --> require_once(/home/liangkaixuan/code/open-contest/api/application/controllers/voucher../Base.php): failed to open stream: No such file or directory /home/liangkaixuan/code/open-contest/api/application/controllers/voucher/Rule.php 3
+ERROR - 2016-11-02 14:21:33 --> Severity: Compile Error --> require_once(): Failed opening required '/home/liangkaixuan/code/open-contest/api/application/controllers/voucher../Base.php' (include_path='.:/usr/share/pear:/usr/share/php') /home/liangkaixuan/code/open-contest/api/application/controllers/voucher/Rule.php 3

@@ -1,0 +1,33 @@
+<div class="event-container-lateral" id="lateral">
+    <ul class="event-container">
+        {{#venue}}
+        <li class="event-item event-item-tit">
+            <p class="text-overflow-2">{{name}}</p>
+        </li>
+        {{/venue}}
+    </ul>
+</div>
+<div class="event-container-portrait ">
+    <ul>
+        {{#openTime}}
+        <div class="event-tit-head">{{time}}</div>
+        {{/openTime}}
+    </ul>
+</div>
+<div class="event-container scroll-box" id="selectEvent_container">
+    <div class="scroll-con">
+        <div class="content-inner">
+            <ul class="selectEvent-area-list">
+                {{#venue}}
+                <li class="event-container-date clearfix" data-name="{{name}}" data-id="{{venue_area_res_id}}">
+                    {{#with data}} {{#each this}}
+                    <span class="event-item {{className}}" data-gid="{{gid}}" data-times-id="{{venue_area_res_times_id}}" data-start="{{start}}" data-end="{{end}}">¥{{price}}</span> {{/each}} {{/with}}
+                </li>
+                {{/venue}}
+            </ul>
+        </div>
+    </div>
+</div>
+{{#if none}}
+<div class="venue_none">{{none}}</div>
+{{/if}}

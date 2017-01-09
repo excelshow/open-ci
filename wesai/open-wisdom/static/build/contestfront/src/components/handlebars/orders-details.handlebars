@@ -1,0 +1,46 @@
+{{#result}}
+<div class="content orders-details">
+	<div class="card contest-list top-solid padt0">
+		<div class="lebal-block">
+			<div class="card-content">
+				{{#each contest_item_list}}
+				<div class="padb5 mat5 bottom-solid">
+					<div class="item-title"><span>{{name}} </span>
+						<span class="fr red-color ">{{fee}}元</span>
+					</div>
+				</div>
+				{{/each}}
+				<div class="item-title padt5 top-solid">订单状态：<span class="red-color">{{state}}支付失败</span> 
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="writeoff-info mat10"> 
+		<div class="writeoff-title bottom-solid padb5">报名信息</div>
+		{{#each contest_item_list}}
+		<div class="writeoff-details mat10">
+			{{#with enrol_data}}
+			{{#each this}}
+			<div class="qr-images">
+				{{{qrCodeData}}}
+			    <div class="text-center">{{qrcode verify_code}}</div>
+			</div>
+			<div class="writeoff-from">
+				{{#with enrol_data_detail}}
+				{{#each this}}
+				<p><span>{{title}}</span>: <span>{{value}}</span></p>
+				{{/each}}
+				{{/with}}
+			</div>
+			{{/each}}
+			{{/with}}
+		</div>
+		{{/each}}
+	</div>
+	
+
+</div>
+{{/result}}
+
+

@@ -1,0 +1,84 @@
+.index_bg { background: url(../img/bottom_bg.png) no-repeat center bottom; background-size: 100% auto }
+
+/*focus*/
+
+.focus-mod { width: 100%; overflow: hidden; position: relative; }
+
+.focus-mod ul { overflow: hidden; margin: 0; padding: 0 }
+
+.focus-mod ul li { display: none; width: 100%; overflow-x: hidden; padding: 0; background-color: #ffffff; min-height: 600px }
+
+.focus-mod img { width: 100%; }
+
+.focus-mod ul li.curr { display: block; }
+
+.focus-mod .focus-nav { overflow: hidden; height: 10px; width: 100%; position: absolute; bottom: 50px; text-align: center; }
+
+.focus-mod .focus-nav i { display: inline-block; margin-right: 10px; width: 30px; height: 10px; background-color: #817d8b; cursor: pointer; }
+
+.focus-mod .focus-nav i.curr { background-color: #ffffff; }
+
+/*itemgroup*/
+.itemgroup { width: 100%; overflow: hidden; background-color: #ff0000 }
+
+.itemgroup img { width: 100%; }
+
+.soruce-item { overflow: hidden; width: 100%; }
+
+.soruce-item .info { width: 100%; text-align: center; margin: 79px auto 55px }
+
+.soruce-item .info h5 { font-size: 3.6rem; padding: 7px 0; color: #1d1d1d; }
+
+.soruce-item .info p { padding: 10px; font-size: 2.0rem; color: #757575 }
+
+.soruce-item .partner-list { overflow: hidden; }
+
+.soruce-item .partner-list li { overflow: hidden; height: 155px; background: url(../img/line1.png) no-repeat 0 bottom; background-size: 100% auto }
+
+.soruce-item .partner-list li a { width: 25%; overflow: hidden; float: left; text-align: center; background: url(../img/line2_01.png) no-repeat right bottom; }
+
+.soruce-item .partner-list li:last-child a { background: url(../img/line2_02.png) no-repeat right top; }
+
+.soruce-item .partner-list li:last-child, .soruce-item .partner-list li a:last-child { background: none }
+
+.soruce-item .partner-list li a img { vertical-align: middle; margin: 50px auto; }
+
+/*copytight*/
+.copytight { position: absolute; width: 100%; left: 0; bottom: 1%; z-index: 99999 }
+
+.copytight p { font-size: 1.6rem; text-align: center; color: #ffffff; font-family: '黑体'; padding: 10px 0 }
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+	html { font-size: 11px; }
+
+	.soruce-item .info h5 { font-size: 2.6rem }
+
+	.top-bar { display: none; }
+
+}
+
+/*aboutus*/
+.company-detail { overflow: hidden; }
+
+.company-detail .m-title { font-family: '黑体'; color: #1d9bef; font-size: 2.8rem; text-align: center; padding: 47px 0 }
+
+.company-detail .detail-txt { font-family: '微软雅黑'; }
+
+.company-detail .detail-txt h4 { font-size: 2.0rem; color: #1f1f1f; padding: 8px 0 }
+
+.company-detail .detail-txt { font-size: 1.6rem; color: #474747; line-height: 26px }
+
+.company-detail .d-list { background: url(../img/about-us_04.png) no-repeat right 160px; }
+
+.company-detail .d-list p { padding: 10px 0; font-size: 1.6rem; color: #474747; line-height: 26px }
+
+.company-detail .d-list p span { background-color: #4eb0f1; font-size: 1.2rem; color: #ffffff;
+	padding: 2px 4px 0; font-family: '黑体'; margin-right: 16px }
+
+.foot { background: #2f2f2f; height: 108px; line-height: 108px; }
+
+.foot p { color: #ffffff; font-size: 1.4rem; font-family: '黑体'; }
+
+.foot p span { margin-right: 50px; }
+
+.foot p img { display: inline-block; margin-right: 15px; vertical-align: middle; }

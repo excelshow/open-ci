@@ -1,0 +1,18 @@
+{{#data}}
+<li class="list-item">
+    <div class="venues-content" data-id="{{id}}">
+        <a href="venue/venueDetails?venue_id={{venue_id}}">
+            <div class="venues-link">
+                <h2 class="venues-tit">{{name}}</h2>
+                <p class="venues-place">[{{address}}]</p>
+                {{#if price}}
+                <p class="venues-price">¥{{price}}</p>
+                {{/if}}
+            </div>
+        </a>
+        <div class="venues-btn"  data-venue-id={{venue_id}} >
+            <a href="javascript:;"class="button button-fill">预订</a>
+        </div>
+    </div>
+</li>
+{{/data}}

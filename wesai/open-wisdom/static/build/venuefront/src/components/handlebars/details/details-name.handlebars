@@ -1,0 +1,24 @@
+<div class="venue-details-tit clearfix">
+    {{#result}}
+    {{#if imgSrc}}
+    <div class="img-venue img-left">
+        <img src="{{imgCDN}}{{imgSrc}}" alt="">
+    </div>{{/if}}
+    <div class="info-right">
+        <h2 class="info-tit">{{name}}</h2>
+        <p class="info-place"> <i class="iconfont">&#xe609;</i>
+            <span>{{address}}</span>
+        </p>
+        <a href="tel:{{phone}}" class="info-place"> <i class="iconfont iphon">&#xe603;</i>
+            <span>{{phone}}</span>
+        </a>
+    </div>
+    {{/result}}
+</div>
+<div class="tab-haed" id="details_type">
+    {{#result}}
+    {{#each types}}
+    <a href="javascript:;" class="skip-type tab-tit {{className}}" data-id="{{tag_id}}">{{chsName}}</a> 
+    {{/each}}
+    {{/result}}
+</div>

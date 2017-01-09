@@ -1,0 +1,47 @@
+{{#with data}}
+	{{#each this}}
+		<li>
+			<a href="/order/detail?oid={{pk_order}}">
+				<div class="item-content">
+					{{#with contest_info}}
+						<div class="item-media"><img src="{{../../../CDN_URL}}/{{poster}}" width="80" height="96"></div>
+
+						<div class="item-inner">
+							<div class="item-title-row">
+								<div class="item-title font-sise18">{{name}}</div>
+							</div>
+							<time class="color-gray line-clamp line-clamp1 mat5">
+								<i class="iconfont mar5">&#xe607;</i>{{dateFormat sdate_start}}-{{dateFormat sdate_end}}</time>
+
+							<div class="color-gray mat5 line-clamp line-clamp1"><i class="iconfont mar5">&#xe60f;</i>{{#with locationData}}{{1}}{{2}}{{3}}{{4}}{{#each this}}{{/each}}{{/with}}{{location}}
+							</div>
+							<div class="ub-flex mat5 ">
+								{{#compare state '==' 5}}
+									<div class="red-color ub-f1 text-right mal5">{{decimalConversion ../amount_pay}} 元</div>
+								{{else}}
+									<div class="red-color ub-f1 text-right mal5">{{decimalConversion ../amount}} 元</div>
+								{{/compare}}
+							</div>
+						</div>
+					{{/with}}
+				</div>
+				<div class="ub-flex orders-btns top-solid">
+					{{#with state}}
+					<div class="ub-f1 font14"><span class="{{className}}">{{name}}</span> <i class="iconfont vertical-line">&#xe6d9;</i> <span>订单详情</span>
+					{{/with}}
+					{{#if pay_seessen}}
+						{{#compare verifiable_number '==' 0}}
+							<i class="iconfont vertical-line">&#xe6d9;</i> <span class="">已核销</span>
+						{{else}}
+							<i class="iconfont vertical-line">&#xe6d9;</i> <span class="green-color1">可核销</span>
+						{{/compare}}
+					{{/if}}
+					</div>
+					{{#if payAgain}}
+					<div class="button button-danger button-round mar5 pay-again" data-oid="{{pk_order}}" data-paid_time="{{paid_time}}" data-channel_id="{{channel_id}}" data-transaction_id={{channel_transaction_id}}>立即支付</div>
+					{{/if}}
+				</div>
+			</a>
+		</li>
+	{{/each}}
+{{/with}}

@@ -1,0 +1,12 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2016-10-27 16:56:04 --> Severity: Warning --> require_once(../config/softykt.php): failed to open stream: No such file or directory /home/liangkaixuan/code/open-contest/api/application/controllers/Softykt.php 4
+ERROR - 2016-10-27 16:56:04 --> Severity: Compile Error --> require_once(): Failed opening required '../config/softykt.php' (include_path='.:/usr/share/pear:/usr/share/php') /home/liangkaixuan/code/open-contest/api/application/controllers/Softykt.php 4
+ERROR - 2016-10-27 16:56:26 --> Severity: Warning --> require_once(./../config/softykt.php): failed to open stream: No such file or directory /home/liangkaixuan/code/open-contest/api/application/controllers/Softykt.php 4
+ERROR - 2016-10-27 16:56:26 --> Severity: Compile Error --> require_once(): Failed opening required './../config/softykt.php' (include_path='.:/usr/share/pear:/usr/share/php') /home/liangkaixuan/code/open-contest/api/application/controllers/Softykt.php 4
+ERROR - 2016-10-27 16:56:47 --> Severity: Warning --> require_once(./../config/softykt.php): failed to open stream: No such file or directory /home/liangkaixuan/code/open-contest/api/application/controllers/Softykt.php 4
+ERROR - 2016-10-27 16:56:47 --> Severity: Compile Error --> require_once(): Failed opening required './../config/softykt.php' (include_path='.:/usr/share/pear:/usr/share/php') /home/liangkaixuan/code/open-contest/api/application/controllers/Softykt.php 4
+ERROR - 2016-10-27 16:56:48 --> Severity: Warning --> require_once(./../config/softykt.php): failed to open stream: No such file or directory /home/liangkaixuan/code/open-contest/api/application/controllers/Softykt.php 4
+ERROR - 2016-10-27 16:56:48 --> Severity: Compile Error --> require_once(): Failed opening required './../config/softykt.php' (include_path='.:/usr/share/pear:/usr/share/php') /home/liangkaixuan/code/open-contest/api/application/controllers/Softykt.php 4
+ERROR - 2016-10-27 16:56:59 --> Severity: Warning --> require_once(./softykt.php): failed to open stream: No such file or directory /home/liangkaixuan/code/open-contest/api/application/controllers/Softykt.php 4
+ERROR - 2016-10-27 16:56:59 --> Severity: Compile Error --> require_once(): Failed opening required './softykt.php' (include_path='.:/usr/share/pear:/usr/share/php') /home/liangkaixuan/code/open-contest/api/application/controllers/Softykt.php 4

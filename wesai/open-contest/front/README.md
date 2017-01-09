@@ -1,0 +1,1 @@
+open contest front

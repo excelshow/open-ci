@@ -1,0 +1,61 @@
+.list-block {
+    margin-top: 0;
+}
+.content-block{
+  background-color: white;
+  margin: 0px;
+  margin-bottom: 1.2rem;
+  padding: 0.8rem;
+}
+.ticket-status img{
+  width: 35%;
+  height: 35%;
+}
+.nodata,
+.ticket-status,
+p.status-info{
+  text-align: center;
+}
+.nodata{
+	width: 100%;
+	padding-top: 200px;	
+}
+.content-block-title.tittle-success{
+	margin-bottom: 0.5rem;
+}
+.break-word{
+  word-wrap: break-word;
+}
+.btn-main{
+  padding: 6.0rem 0.75rem 0;
+}
+.press-btn{
+  cursor: not-allowed;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  opacity: .65;
+}
+.ven-preloader{
+  display: none;
+}
+.press-btn .ven-preloader{
+  margin-right: 0.25rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+.bottom-info{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0.25rem;
+}
+.bottom-info .co{
+  text-align: center; 
+  font-size: 0.6rem; 
+  color: #999; 
+  margin: 0.7rem 0; 
+  line-height: 0.8rem;
+  overflow: hidden;
+  padding-top: 0.5rem;
+}

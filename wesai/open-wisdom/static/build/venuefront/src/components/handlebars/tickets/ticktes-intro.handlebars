@@ -1,0 +1,23 @@
+{{#with this}}
+{{#if data}}
+<div class="img-box">
+    <div class="details-img-flex image-display clearfix">
+        {{#each data}}
+        <div class="img-left pb-standalone">
+            <img src="{{imgCDN}}{{fileid}}" alt="">
+        </div>
+        {{/each}}
+    </div>
+</div>
+{{/if}}
+{{#if intro}}
+<div class="section">
+    <div class="section-notice">
+        <div class="notice-box">
+            {{intro}}
+        </div>
+    </div>
+</div>
+</div>
+{{/if}}
+{{/with}}

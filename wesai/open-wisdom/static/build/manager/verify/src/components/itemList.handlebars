@@ -1,0 +1,38 @@
+
+{{#each data}}
+<ul class="js_count">
+	<li class="item-content">
+		<div class="item-inner">
+			<div class="item-title">活动名称</div>
+			<div class="item-after">{{cname}}</div>
+		</div>
+	</li>
+	<li class="item-content">
+		<div class="item-inner">
+			<div class="item-title">项目名称</div>
+			<div class="item-after">{{name}}</div>
+		</div>
+	</li>
+	<li class="item-content">
+		<div class="item-inner">
+			<div class="item-title">开赛时间</div>
+			<div class="item-after">{{start_time}}</div>
+		</div>
+	</li>
+	<li class="item-content">
+		<div class="item-inner">
+			<div class="item-title">报名人数</div>
+			<div class="item-after">{{order_count}}</div>
+		</div>
+	</li>
+	<li class="item-content">
+		<div class="item-inner">
+			<div class="item-title">检票人数</div>
+			<div class="item-after">{{order_count_verified}}</div>
+		</div>
+	</li>
+</ul>
+<div class="content-block">
+	<a href="javascript:;" class="button button-big button-fill button-success start-scan" data-item-id={{pk_contest_items}}>开始检票</a>
+</div>
+{{/each}}

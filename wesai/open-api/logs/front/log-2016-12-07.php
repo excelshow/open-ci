@@ -1,0 +1,458 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2016-12-07 16:13:19 --> array (
+  'access_token' => 'nB9Z5YQEcg6vfrDb',
+  'timestamp' => '1481098399',
+  'nonce' => 'C2jvKgnon1Im',
+  'type' => '118001',
+  'scenicid' => '53',
+  'productid' => '160',
+  'useflag' => '1',
+  'signature' => '4C2796DED4F7A7704CDA486BEBDB4639',
+)
+ERROR - 2016-12-07 16:13:19 --> array (
+  'timestamp' => '1481098399',
+  'nonce' => 'C2jvKgnon1Im',
+  'type' => '118001',
+  'scenicid' => '53',
+  'productid' => '160',
+  'useflag' => '1',
+  'token' => 'nB9Z5YQEcg6vfrDb',
+)
+ERROR - 2016-12-07 16:13:19 --> Severity: Error --> Call to undefined function log_message_to_file() /home/liangkaixuan/code/open-api/front/application/controllers/softykt/Softykt.php 205
+ERROR - 2016-12-07 16:59:55 --> array (
+  'access_token' => 'nB9Z5YQEcg6vfrDb',
+  'timestamp' => '1481101195',
+  'nonce' => 'hJHPO4xiEovJ',
+  'type' => '118001',
+  'scenicid' => '53',
+  'productid' => '160',
+  'useflag' => '0',
+  'signature' => 'D6488B524AE5417B931CA3471CD2CBB9',
+)
+ERROR - 2016-12-07 16:59:55 --> array (
+  'timestamp' => '1481101195',
+  'nonce' => 'hJHPO4xiEovJ',
+  'type' => '118001',
+  'scenicid' => '53',
+  'productid' => '160',
+  'useflag' => '0',
+  'token' => 'nB9Z5YQEcg6vfrDb',
+)
+ERROR - 2016-12-07 16:59:55 --> array (
+  'type' => 2,
+  'scenicid' => '53',
+  'productid' => '160',
+  'useflag' => '0',
+)
+ERROR - 2016-12-07 17:09:48 --> array (
+  'access_token' => 'nB9Z5YQEcg6vfrDb',
+  'timestamp' => '1481101788',
+  'nonce' => 'Ems4ckSz2uyc',
+  'type' => '118001',
+  'scenicid' => '53',
+  'productid' => '160',
+  'useflag' => '1',
+  'signature' => '8279915658FCEAF365998D9F588BD1AA',
+)
+ERROR - 2016-12-07 17:09:48 --> array (
+  'timestamp' => '1481101788',
+  'nonce' => 'Ems4ckSz2uyc',
+  'type' => '118001',
+  'scenicid' => '53',
+  'productid' => '160',
+  'useflag' => '1',
+  'token' => 'nB9Z5YQEcg6vfrDb',
+)
+ERROR - 2016-12-07 17:09:48 --> array (
+  'type' => 2,
+  'scenicid' => '53',
+  'productid' => '160',
+  'useflag' => '1',
+)
+ERROR - 2016-12-07 17:12:14 --> array (
+  'access_token' => 'nB9Z5YQEcg6vfrDb',
+  'timestamp' => '1481101934',
+  'nonce' => 'Jrp8dH2xYHHR',
+  'type' => '118001',
+  'scenicid' => '53',
+  'productid' => '160',
+  'useflag' => '0',
+  'signature' => '6EA0EE8010041BA936C401423F104274',
+)
+ERROR - 2016-12-07 17:12:14 --> array (
+  'timestamp' => '1481101934',
+  'nonce' => 'Jrp8dH2xYHHR',
+  'type' => '118001',
+  'scenicid' => '53',
+  'productid' => '160',
+  'useflag' => '0',
+  'token' => 'nB9Z5YQEcg6vfrDb',
+)
+ERROR - 2016-12-07 17:12:14 --> array (
+  'type' => 2,
+  'scenicid' => '53',
+  'productid' => '160',
+  'useflag' => '0',
+)
+ERROR - 2016-12-07 17:21:32 --> array (
+  'access_token' => 'nB9Z5YQEcg6vfrDb',
+  'timestamp' => '1481102492',
+  'nonce' => 'bxTdHF9tuoK3',
+  'type' => '118001',
+  'scenicid' => '53',
+  'productid' => '160',
+  'useflag' => '1',
+  'signature' => '20A30D8C9141B643769B02D9D4C3F304',
+)
+ERROR - 2016-12-07 17:21:32 --> array (
+  'timestamp' => '1481102492',
+  'nonce' => 'bxTdHF9tuoK3',
+  'type' => '118001',
+  'scenicid' => '53',
+  'productid' => '160',
+  'useflag' => '1',
+  'token' => 'nB9Z5YQEcg6vfrDb',
+)
+ERROR - 2016-12-07 17:21:32 --> array (
+  'type' => 2,
+  'scenicid' => '53',
+  'productid' => '160',
+  'useflag' => '1',
+)
+ERROR - 2016-12-07 18:26:45 --> array (
+  'access_token' => 'nB9Z5YQEcg6vfrDb',
+  'timestamp' => '1481106405',
+  'nonce' => 'CQFT706H7IBc',
+  'type' => '118001',
+  'scenicid' => '53',
+  'productid' => '160',
+  'useflag' => '0',
+  'signature' => '87648A10157E6DD6AE2D4BDCD6948C73',
+)
+ERROR - 2016-12-07 18:26:45 --> Severity: Notice --> Undefined index: spare /home/liangkaixuan/code/open-api/front/application/controllers/softykt/Softykt.php 43
+ERROR - 2016-12-07 18:26:45 --> array (
+  'timestamp' => '1481106405',
+  'nonce' => 'CQFT706H7IBc',
+  'type' => '118001',
+  'scenicid' => '53',
+  'productid' => '160',
+  'useflag' => '0',
+  'token' => 'nB9Z5YQEcg6vfrDb',
+)
+ERROR - 2016-12-07 18:26:45 --> 
+ERROR - 2016-12-07 18:27:25 --> array (
+  'access_token' => 'nB9Z5YQEcg6vfrDb',
+  'timestamp' => '1481106444',
+  'nonce' => 'nI4ZQx2g8PXU8FG3xa',
+  'signature' => '563121FF3A76B5773976FA1ECC911716',
+  'spare' => 'YTozOntpOjA7czozOiJqZnkiO2k6MTtzOjEwOiIxNDgxMTA2NDQ0IjtpOjI7czoxODoiMUdldzRFMnZhdmZTN0RCY0RyIjt9',
+)
+ERROR - 2016-12-07 18:27:25 --> array (
+  'timestamp' => '1481106444',
+  'nonce' => 'nI4ZQx2g8PXU8FG3xa',
+  'spare' => 'YTozOntpOjA7czozOiJqZnkiO2k6MTtzOjEwOiIxNDgxMTA2NDQ0IjtpOjI7czoxODoiMUdldzRFMnZhdmZTN0RCY0RyIjt9',
+  'token' => 'nB9Z5YQEcg6vfrDb',
+)
+ERROR - 2016-12-07 18:27:25 --> 1Gew4E2vavfS7DBcDr
+ERROR - 2016-12-07 18:27:31 --> array (
+  'access_token' => 'nB9Z5YQEcg6vfrDb',
+  'timestamp' => '1481106451',
+  'nonce' => 'tyw3N0ZbEhtg',
+  'type' => '118001',
+  'scenicid' => '53',
+  'productid' => '160',
+  'useflag' => '1',
+  'signature' => 'C58F694C0873CF8E5BE0C2DD91BE8D9C',
+)
+ERROR - 2016-12-07 18:27:31 --> array (
+  'timestamp' => '1481106451',
+  'nonce' => 'tyw3N0ZbEhtg',
+  'type' => '118001',
+  'scenicid' => '53',
+  'productid' => '160',
+  'useflag' => '1',
+  'token' => 'nB9Z5YQEcg6vfrDb',
+)
+ERROR - 2016-12-07 18:27:31 --> array (
+  'type' => 2,
+  'scenicid' => '53',
+  'productid' => '160',
+  'useflag' => '1',
+)
+ERROR - 2016-12-07 18:41:19 --> array (
+  'access_token' => 'nB9Z5YQEcg6vfrDb',
+  'timestamp' => '1481107279',
+  'nonce' => '79af9hWh0xuw',
+  'type' => '118001',
+  'scenicid' => '53',
+  'productid' => '160',
+  'useflag' => '0',
+  'signature' => 'B6A2DFD1FF0EC4B4A957283105BC87E0',
+)
+ERROR - 2016-12-07 18:41:19 --> array (
+  'timestamp' => '1481107279',
+  'nonce' => '79af9hWh0xuw',
+  'type' => '118001',
+  'scenicid' => '53',
+  'productid' => '160',
+  'useflag' => '0',
+  'token' => 'nB9Z5YQEcg6vfrDb',
+)
+ERROR - 2016-12-07 18:41:19 --> array (
+  'type' => 2,
+  'scenicid' => '53',
+  'productid' => '160',
+  'useflag' => '0',
+)
+ERROR - 2016-12-07 18:54:15 --> array (
+  'access_token' => 'nB9Z5YQEcg6vfrDb',
+  'timestamp' => '1481108054',
+  'nonce' => 'QcHvW8qTKIDa',
+  'type' => '118001',
+  'scenicid' => '53',
+  'productid' => '160',
+  'useflag' => '1',
+  'signature' => '5BF1EA36498F8A8B7AE958CA6072472F',
+)
+ERROR - 2016-12-07 18:54:15 --> array (
+  'timestamp' => '1481108054',
+  'nonce' => 'QcHvW8qTKIDa',
+  'type' => '118001',
+  'scenicid' => '53',
+  'productid' => '160',
+  'useflag' => '1',
+  'token' => 'nB9Z5YQEcg6vfrDb',
+)
+ERROR - 2016-12-07 18:54:15 --> array (
+  'type' => 2,
+  'scenicid' => '53',
+  'productid' => '160',
+  'useflag' => '1',
+)
+ERROR - 2016-12-07 18:56:34 --> array (
+  'access_token' => 'nB9Z5YQEcg6vfrDb',
+  'timestamp' => '1481108194',
+  'nonce' => 'vrkcjrlVPsYX',
+  'type' => '118000',
+  'productid' => '160',
+  'scenicid' => '53',
+  'productname' => '全天滑雪票222',
+  'producttype' => '1',
+  'usepeoplenum' => '2',
+  'validstatus' => '1',
+  'validbegindate' => '0000-00-00 00:00:00',
+  'validenddate' => '0000-00-00 00:00:00',
+  'price' => '150.00',
+  'sellprice' => '130.00',
+  'agentprice' => '100.00',
+  'returnflag' => '0',
+  'numberflag' => '0',
+  'number' => '0',
+  'useflag' => '1',
+  'memo' => '全天滑雪票详情',
+  'webpic' => '',
+  'consumestate' => '1',
+  'consumebegindate' => '2016-07-06 12:12:12',
+  'consumeenddate' => '2017-07-06 12:12:12',
+  'hour' => '0',
+  'signature' => 'A18F7A0CA3C9EE963E7BADB03A0F3524',
+)
+ERROR - 2016-12-07 18:56:34 --> array (
+  'timestamp' => '1481108194',
+  'nonce' => 'vrkcjrlVPsYX',
+  'type' => '118000',
+  'productid' => '160',
+  'scenicid' => '53',
+  'productname' => '全天滑雪票222',
+  'producttype' => '1',
+  'usepeoplenum' => '2',
+  'validstatus' => '1',
+  'validbegindate' => '0000-00-00 00:00:00',
+  'validenddate' => '0000-00-00 00:00:00',
+  'price' => '150.00',
+  'sellprice' => '130.00',
+  'agentprice' => '100.00',
+  'returnflag' => '0',
+  'numberflag' => '0',
+  'number' => '0',
+  'useflag' => '1',
+  'memo' => '全天滑雪票详情',
+  'webpic' => '',
+  'consumestate' => '1',
+  'consumebegindate' => '2016-07-06 12:12:12',
+  'consumeenddate' => '2017-07-06 12:12:12',
+  'hour' => '0',
+  'token' => 'nB9Z5YQEcg6vfrDb',
+)
+ERROR - 2016-12-07 18:56:34 --> array (
+  'productid' => '160',
+  'scenicid' => '53',
+  'name' => '全天滑雪票222',
+  'usepeoplenum' => '2',
+  'producttype' => '1',
+  'validbegindate' => '0000-00-00 00:00:00',
+  'validenddate' => '0000-00-00 00:00:00',
+  'price' => '150.00',
+  'agentprice' => '100.00',
+  'returnflag' => '0',
+  'fee' => '130.00',
+  'numberflag' => '0',
+  'number' => '0',
+  'memo' => '全天滑雪票详情',
+  'webpic' => '',
+  'consumebegindate' => '2016-07-06 12:12:12',
+  'consumeenddate' => '2017-07-06 12:12:12',
+  'consumestate' => '1',
+  'hour' => '0',
+  'type' => 1,
+)
+ERROR - 2016-12-07 19:00:15 --> array (
+  'access_token' => 'nB9Z5YQEcg6vfrDb',
+  'timestamp' => '1481108415',
+  'nonce' => 'yLyEICkvjP2i',
+  'type' => '118100',
+  'ordernumber' => '062109327932',
+  'orderdetailid' => '8489',
+  'number' => '4',
+  'signature' => '03FE249566F577E3032653702FEDCAEB',
+)
+ERROR - 2016-12-07 19:00:15 --> array (
+  'timestamp' => '1481108415',
+  'nonce' => 'yLyEICkvjP2i',
+  'type' => '118100',
+  'ordernumber' => '062109327932',
+  'orderdetailid' => '8489',
+  'number' => '4',
+  'token' => 'nB9Z5YQEcg6vfrDb',
+)
+ERROR - 2016-12-07 19:00:15 --> array (
+  'type' => 4,
+  'orderid' => '062109327932',
+  'orderdetailid' => '8489',
+  'number' => '4',
+)
+ERROR - 2016-12-07 19:08:59 --> array (
+  'access_token' => 'nB9Z5YQEcg6vfrDb',
+  'timestamp' => '1481108939',
+  'nonce' => 'iQiC46iOSmTh',
+  'type' => '118100',
+  'ordernumber' => '012104032532',
+  'orderdetailid' => '8486',
+  'number' => '1',
+  'signature' => '346F1C146D112202786F06399E8F2C85',
+)
+ERROR - 2016-12-07 19:08:59 --> array (
+  'timestamp' => '1481108939',
+  'nonce' => 'iQiC46iOSmTh',
+  'type' => '118100',
+  'ordernumber' => '012104032532',
+  'orderdetailid' => '8486',
+  'number' => '1',
+  'token' => 'nB9Z5YQEcg6vfrDb',
+)
+ERROR - 2016-12-07 19:08:59 --> array (
+  'type' => 4,
+  'orderid' => '012104032532',
+  'orderdetailid' => '8486',
+  'number' => '1',
+)
+ERROR - 2016-12-07 19:20:59 --> array (
+  'access_token' => 'nB9Z5YQEcg6vfrDb',
+  'timestamp' => '1481109659',
+  'nonce' => 'kVQEYwgTauLt',
+  'type' => '118000',
+  'productid' => '252',
+  'scenicid' => '53',
+  'productname' => '滑雪双人票',
+  'producttype' => '1',
+  'usepeoplenum' => '2',
+  'validstatus' => '2',
+  'validbegindate' => '2016-12-07',
+  'validenddate' => '2016-12-23',
+  'price' => '300.00',
+  'sellprice' => '300.00',
+  'agentprice' => '300.00',
+  'returnflag' => '0',
+  'numberflag' => '0',
+  'number' => '0',
+  'useflag' => '0',
+  'memo' => '双人滑雪票',
+  'webpic' => 'http://test.softykt.com/Public/Product/Pic/2016-12-07/5847f09b2c52e.png',
+  'consumestate' => '2',
+  'consumebegindate' => '2016-12-07 18:20:59',
+  'consumeenddate' => '2016-12-23 19:20:52',
+  'hour' => '-1',
+  'signature' => '3DE086C9C433D73EE173C2BF00B9D143',
+)
+ERROR - 2016-12-07 19:20:59 --> array (
+  'timestamp' => '1481109659',
+  'nonce' => 'kVQEYwgTauLt',
+  'type' => '118000',
+  'productid' => '252',
+  'scenicid' => '53',
+  'productname' => '滑雪双人票',
+  'producttype' => '1',
+  'usepeoplenum' => '2',
+  'validstatus' => '2',
+  'validbegindate' => '2016-12-07',
+  'validenddate' => '2016-12-23',
+  'price' => '300.00',
+  'sellprice' => '300.00',
+  'agentprice' => '300.00',
+  'returnflag' => '0',
+  'numberflag' => '0',
+  'number' => '0',
+  'useflag' => '0',
+  'memo' => '双人滑雪票',
+  'webpic' => 'http://test.softykt.com/Public/Product/Pic/2016-12-07/5847f09b2c52e.png',
+  'consumestate' => '2',
+  'consumebegindate' => '2016-12-07 18:20:59',
+  'consumeenddate' => '2016-12-23 19:20:52',
+  'hour' => '-1',
+  'token' => 'nB9Z5YQEcg6vfrDb',
+)
+ERROR - 2016-12-07 19:20:59 --> array (
+  'productid' => '252',
+  'scenicid' => '53',
+  'name' => '滑雪双人票',
+  'usepeoplenum' => '2',
+  'producttype' => '1',
+  'validbegindate' => '2016-12-07',
+  'validenddate' => '2016-12-23',
+  'price' => '300.00',
+  'agentprice' => '300.00',
+  'returnflag' => '0',
+  'fee' => '300.00',
+  'numberflag' => '0',
+  'number' => '0',
+  'memo' => '双人滑雪票',
+  'webpic' => 'http://test.softykt.com/Public/Product/Pic/2016-12-07/5847f09b2c52e.png',
+  'consumebegindate' => '2016-12-07 18:20:59',
+  'consumeenddate' => '2016-12-23 19:20:52',
+  'consumestate' => '2',
+  'hour' => '-1',
+  'type' => 1,
+)
+ERROR - 2016-12-07 19:28:42 --> array (
+  'access_token' => 'nB9Z5YQEcg6vfrDb',
+  'timestamp' => '1481110122',
+  'nonce' => 'GWWAEYfM9eYz',
+  'type' => '118002',
+  'productid' => '252',
+  'scenicid' => '53',
+  'signature' => 'C18AB1F36AEA7C0EEED8865486A148C2',
+)
+ERROR - 2016-12-07 19:28:42 --> array (
+  'timestamp' => '1481110122',
+  'nonce' => 'GWWAEYfM9eYz',
+  'type' => '118002',
+  'productid' => '252',
+  'scenicid' => '53',
+  'token' => 'nB9Z5YQEcg6vfrDb',
+)
+ERROR - 2016-12-07 19:28:42 --> array (
+  'type' => 3,
+  'scenicid' => '53',
+  'productid' => '252',
+)

@@ -1,0 +1,16 @@
+*/config/development
+*/logs/log-*.php
+!*/logs/index.html
+*/cache/*
+!*/cache/index.html
+!*/cache/.htaccess
+
+# for mac
+.DS_Store
+
+cache/smarty/*
+cache/templates_c/*.php
+application/config/*
+application/config.bugfix/*
+tags
+*.tags

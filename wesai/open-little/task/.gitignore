@@ -1,0 +1,12 @@
+### CodeIgniter template
+*/config/development
+*/logs/log-*.php
+!*/logs/index.html
+*/cache/*
+!*/cache/index.html
+!*/cache/.htaccess
+/.idea
+/README.md
+/application/config
+# Created by .ignore support plugin (hsz.mobi)
+application/config/*

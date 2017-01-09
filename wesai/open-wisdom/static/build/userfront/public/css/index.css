@@ -1,0 +1,85 @@
+
+/*   user   */
+.mine .list-block .item-link .item-inner,.mine .list-block .item-content{
+	min-height: 3.5rem;
+}
+.mine .list-block{
+	margin: 0;
+	padding: 0;
+	font-size: .8rem;
+}
+.mine .list-block li {
+    background: #fff;
+    margin-bottom: 10px;
+}
+.mine .list-block li a {
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    color: #474747;
+}
+.mine .iconfont {
+    line-height: 1;
+    font-size: 1.8rem;
+}
+.mine .icon-contenst{
+    color: #e34c59;
+}
+.mine .icon-venue{
+    width: 2rem;
+    height: 2rem;
+    color: #fff;
+    background-color: #13bdcb;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1.2rem;
+}
+.mine .icon-group{
+    color: #fa731b;
+}
+.mine .icon-team{
+    color: #f6aa21;
+}
+.mine .icon-youhuiquan{
+    color: #6cbdf0;
+}
+/*  venue-main-nav    */
+.main-nav {
+    display: flex;
+    display: -webkit-flex;
+    position: fixed;
+    z-index: 999999;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    background: #fff;
+    border-top: 1px solid #eee;
+}
+.main-nav>div {
+    width: 100%;
+    padding-top: .15rem;
+    text-align: center;
+}
+.main-nav a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: .6rem;
+    color: #999;
+}
+.main-nav a i {
+    display: block;
+    margin: 0 auto;
+    width: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+}
+.main-nav a.active {
+    color: #13bdcb;
+}
+.main-nav a span {
+    display: block;
+    line-height: 1rem;
+}

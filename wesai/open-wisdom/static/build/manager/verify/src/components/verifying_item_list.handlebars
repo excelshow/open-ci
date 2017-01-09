@@ -1,0 +1,60 @@
+
+<div class="list-block media-list">
+	<ul>
+		{{#with contest_info}}
+			<li class="item-content">
+				<div class="item-inner">
+					<div class="item-title-row">
+		                <div class="item-title">活动名称</div>
+		                <div class="item-after">{{name}}</div>
+	              	</div>
+				</div>
+			</li>
+		{{/with}}
+		{{#with contest_item_info}}
+			<li class="item-content">
+				<div class="item-inner">
+					<div class="item-title-row">
+		                <div class="item-title">项目名称</div>
+		                <div class="item-after">{{name}}</div>
+	              	</div>
+				</div>
+			</li>
+		{{/with}}
+		{{#with enrol_info}}
+			{{#each this}}
+			<li>
+			{{#if uploadfile}}
+				<div class="item-content">
+					<div class="item-inner">
+						<div class="item-title-row">
+							<div class="item-title">{{title}}</div>
+						</div>
+						<div class="item-text break-word"></div>
+						<div class="item-text break-word"><img src="{{value}}?imageMogr2/thumbnail/750"></div>
+					</div>
+				</div>
+			{{else}}
+				<div class="item-content">
+					<div class="item-inner">
+						<div class="item-title-row">
+							<div class="item-title">{{title}}</div>
+						</div>
+						<div class="item-text break-word">{{value}}</div>
+					</div>
+				</div>
+			{{/if}}
+			</li>
+			{{/each}}
+		{{/with}}
+		
+	</ul>
+</div>
+
+
+<div class="content-block">
+  	<div class="row">
+    	<div class="col-50"><a href="javascript:;" class="button button-big button-fill button-danger close-popup">取消</a></div>
+    	<div class="col-50"><a href="javascript:;" class="button button-big button-fill button-success" id="WicketButton" data-pk-order="{{pk_order}}"><div class="preloader preloader-white ven-preloader"></div><span>确定</span></a></div>
+  	</div>
+</div>

@@ -1,0 +1,94 @@
+
+<div class="list-block media-list">
+	<ul>
+		{{#with contest_info}}
+			{{#contestInfo}}
+				<li class="item-content">
+					<div class="item-inner">
+						<div class="item-title-row">
+			                <div class="item-title">活动名称</div>
+			                <div class="item-after">{{name}}</div>
+		              	</div>
+					</div>
+				</li>
+			{{/contestInfo}}
+			{{#itemInfo}}
+				<li class="item-content">
+					<div class="item-inner">
+						<div class="item-title-row">
+			                <div class="item-title">项目名称</div>
+			                <div class="item-after">{{name}}</div>
+		              	</div>
+					</div>
+				</li>
+			{{/itemInfo}}
+		{{/with}}
+		{{#with order_info}}
+			{{#each enrol_data_detail}}
+				{{#if uploadfile}}
+				<li>
+					<div class="item-content">
+						<div class="item-inner">
+							<div class="item-title-row">
+								<div class="item-title">{{title}}</div>
+								<div class="item-after break-word pb-standalone">
+									<img src="{{value}}?imageMogr2/thumbnail/100x100">
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				{{else}}
+				<li class="item-content">
+					<div class="item-inner">
+						<div class="item-title-row">
+			                <div class="item-title">{{title}}</div>
+			                <div class="item-after">{{value}}</div>
+		              	</div>
+					</div>
+				</li>
+				{{/if}}
+			{{/each}}
+			{{#verify_code}}
+				<li class="item-content">
+					<div class="item-inner">
+						<div class="item-title-row">
+			                <div class="item-title">数量</div>
+			                <div class="item-after">x {{max_verify}}</div>
+		              	</div>
+					</div>
+				</li>
+				<li class="item-content">
+					<div class="item-inner">
+						<div class="item-title-row">
+			                <div class="item-title">已核销</div>
+			                <div class="item-after" id="verify_number"><span class="verify_number">{{verify_number}}</span>/{{max_verify}}</div>
+		              	</div>
+					</div>
+				</li>
+				<li class="item-content">
+					<div class="item-inner">
+						<div class="item-title-row">
+			                <div class="item-title">核销结果</div>
+			                <div class="item-after" id="verify_result">
+			                </div>
+		              	</div>
+					</div>
+				</li>
+			{{/verify_code}}
+	{{/with}}
+
+	</ul>
+</div>
+
+{{#with order_info}}
+{{#verify_code}}
+<div class="content-block">
+  	<div class="row">
+    	<div class="col-50"><a href="javascript:;" class="button button-big button-fill button-danger close-popup">取消</a></div>
+    	<div class="col-50"><a href="javascript:;" class="button button-big button-fill button-success" id="WicketButton" data-pk-order="{{code}}"><div class="preloader preloader-white ven-preloader"></div><span>确定</span></a></div>
+  	</div>
+</div>
+{{/verify_code}}
+{{/with}}
+

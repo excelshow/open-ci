@@ -1,0 +1,6 @@
+CI_phpStorm.php
+DB_active_rec.php
+my_models.php
+*.tags
+tags
+

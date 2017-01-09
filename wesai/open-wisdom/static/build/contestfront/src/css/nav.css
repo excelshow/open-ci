@@ -1,0 +1,77 @@
+/*  增加导航后，page-group盒模型修改  新增class*/
+.change-page-style{
+    position: relative;
+    left: 0;
+    top: 2rem;
+    height: calc(100vh - 2rem);
+}
+/*  top-nav    */
+.top-nav {
+    display: flex;
+    display: -webkit-flex;
+    position: fixed;
+    z-index: 999999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 2rem;
+    background: #fff;
+    border-top: 1px solid #eee;
+}
+.top-nav a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    color: #474747;
+    font-size: .8rem;
+    text-align: center;
+}
+.top-nav a span{
+    box-sizing: border-box;
+    display: inline-block;
+    margin: .3rem 0;
+    padding: 0 .5rem;
+    line-height: 1.4rem;
+}
+.top-nav a.active span{
+    border-bottom: 2px solid #13bdcb;
+}
+/*  bottom-nav    */
+.bottom-nav {
+    display: flex;
+    display: -webkit-flex;
+    position: fixed;
+    z-index: 999999;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    background: #fff;
+    border-top: 1px solid #eee;
+}
+.bottom-nav>div {
+    width: 100%;
+    padding-top: .15rem;
+    text-align: center;
+}
+.bottom-nav a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: .6rem;
+    color: #999;
+}
+.bottom-nav a i {
+    display: block;
+    margin: 0 auto;
+    width: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+}
+.bottom-nav a.active {
+    color: #13bdcb;
+}
+.bottom-nav a span {
+    display: block;
+    line-height: 1rem;
+}

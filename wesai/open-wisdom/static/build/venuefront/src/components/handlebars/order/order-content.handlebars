@@ -1,0 +1,37 @@
+ {{#each this}}
+<ul class="">
+    <li class="item-content order-title order-view-details">
+        <a href="detail?order_id={{order_id}}">
+            <div class="item-inner">
+                <div class="em-title order-item order-item-title">{{venue_name}}</div>
+                <div class="em-after order-item {{className}}">{{states}}</div>
+            </div>
+        </a>
+    </li>
+    <li class="item-content order-view-details">
+        <a href="detail?order_id={{order_id}}">
+            <div class="item-inner">
+                <div class="em-title order-item order-item-time"><span class="order-sub-title">{{sub_tit_1}}</span><span>: {{day}} {{start}}</span></div>
+                <div class="em-after order-item order-item-code"><span class="order-sub-code">{{sub_tit_2}}</span><span class="sub-code-content">: {{code}}</span></div>
+            </div>
+        </a>
+    </li>
+    <li class="item-content order-view-details">
+        <a href="detail?order_id={{order_id}}">
+            <div class="item-inner">
+                <div class="em-title order-item order-item-time"><span class="order-sub-title">{{sub_tit_3}}</span><span>: {{name}}</span></div>
+                <div class="em-after order-item order-item-code"><span class="order-sub-code">{{sub_tit_4
+}}</span><span class="sub-code-content">: {{amount}}元</span></div>
+            </div>
+        </a>
+    </li>
+    {{#if url}}
+    <li class="item-content order-pay">
+        <div class="item-inner">
+            <a href="javascript:;" class="button button-round button-cancel" data-pk-order="{{order_id}}">取消订单</a>
+            <a href="{{url}}" class="button button-round button-bg button-pay-now">立即支付</a>
+        </div>
+    </li>
+    {{/if}}
+</ul>
+{{/each}}

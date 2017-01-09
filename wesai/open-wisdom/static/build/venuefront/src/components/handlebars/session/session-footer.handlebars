@@ -1,0 +1,64 @@
+<div class="ub event-footer-explain">
+    <div class="ub-f1 event-states">
+        <div class="color-block green"><span></span></div>
+        <div class="font-tit">可预订</div>
+    </div>
+    <div class="ub-f1 event-states">
+        <div class="color-block gray"><span></span></div>
+        <div class="font-tit">已出售</div>
+    </div>
+    <div class="ub-f1 event-states">
+        <div class="color-block blue"><span></span></div>
+        <div class="font-tit">我的选择</div>
+    </div>
+</div>
+<div class="event-footer-choice" id="user_choice"></div>
+<div class="submit-btn">
+    <a class="button" id="ticket_pay">请选择场次</a>
+</div>
+<div class="event-order">
+    <div class="popup popup-order">
+        <div class="item-content">
+            <div class="item-inner">
+                <div class="item-title">手机号:</div>
+                <div class="item-input">
+                    <input class="user-tel" type="text" maxlength="11" oninput="this.value=this.value.replace(/\D/g,'')" placeholder="请输入手机号">
+                </div>
+                <div class="item-btn">
+                    <button class="button button-round button-bg button-code" id="selectEvent_get_code">获取验证码</button>
+                </div>
+            </div>
+        </div>
+        <div class="item-content">
+            <div class="item-inner">
+                <div class="item-title">验证码:</div>
+                <div class="item-input">
+                    <input class="user-tel-vcode" type="text" maxlength="6" oninput="this.value=this.value.replace(/\D/g,'')" placeholder="请输入短信验证码">
+                </div>
+            </div>
+        </div>
+        <div class="item-submit">
+            <a href="javascript:;" class="mobile-vcode no-tel button button-round button-bg button-bigger">验证</a>
+        </div>
+        <div class="event-verify">验证即表示您同意<a href="userAgreement">《用户协议》</a></div>
+    </div>
+</div>
+<div class="event-order event-order-default">
+    <div class="popup popup-order-default">
+        <div class="item-content">
+            <div class="item-inner">
+                <div class="item-title">您的手机号:</div>
+                <div class="item-input">
+                    <input class="user-tel-default" type="text" value="" readonly>
+                </div>
+                <div class="item-btn">
+                    <a href="#" class="button button-round button-bg button-change open-order">更改</a>
+                </div>
+            </div>
+        </div>
+        <div class="item-submit">
+            <a href="javascript:;" class="user-order-skip button button-round button-bg button-bigger">确认使用</a>
+        </div>
+    </div>
+    <div class="event-layer close-popup"></div>
+</div>

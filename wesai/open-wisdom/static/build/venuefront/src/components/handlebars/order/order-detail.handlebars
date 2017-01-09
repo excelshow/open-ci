@@ -1,0 +1,85 @@
+<div class="content pay pay-success">
+    {{#result}}
+    <ul class="order-msg">
+        <li>
+            <p class="item">订单详情</p>
+        </li>
+        <li>
+            <p class="item item-left">订单号</p>
+            <p class="item item-right">{{order_view_id}}</p>
+        </li>
+        <li>
+            <p class="item item-left">下单时间</p>
+            <p class="item item-right">{{ctime}}</p>
+        </li>
+        <li>
+            <p class="item item-left">支付方式</p>
+            <p class="item item-right">{{payment}}</p>
+        </li>
+        <li>
+            <p class="item item-left">支付金额</p>
+            <p class="item item-right pay-price"><span>{{price}}元</span></p>
+        </li>
+        <li>
+            <p class="item item-left">订单状态</p>
+            <p class="item item-right"><span class="{{className}}">{{states}}</span></p>
+        </li>
+    </ul>
+    {{#if url}}
+    <div class="content-padded">
+        <a href="{{url}}" class="button button-round button-bg button-bigger">立即支付</a>
+    </div>
+    {{/if}}
+    <ul class="">
+        <li>
+            <p class="item item-left">项目</p>
+            <p class="item item-right">{{types}}</p>
+        </li>
+        <li>
+            <p class="item item-left">场馆</p>
+            <p class="item item-right">{{venue_name}}</p>
+        </li>
+        <li>
+            <p class="item item-left">地点</p>
+            <p class="item item-right">{{venue_address}}</p>
+        </li>
+        <li>
+            <p class="item item-left">客服电话</p>
+            <p class="item item-right"><a href="tel:{{venue_phone}}">{{venue_phone}}</a></p>
+        </li>
+    </ul>
+    {{#each times}}
+    <ul class="order-msg">
+        <li>
+            <p class="item item-left">场地</p>
+            <p class="item item-right">{{name}} {{time_start}}-{{time_end}}</p>
+        </li>
+        <li>
+            <p class="item item-left">日期</p>
+            <p class="item item-right">{{week}}（{{day}}）</p>
+        </li>
+        {{#if code}}
+        <li>
+            <div class="qrcode-wrap">
+                {{#if states}}
+                <p class="order-code-used">{{states}}</p>
+                {{/if}}
+                <div class="qrcode-img" data-qrcode="{{qrCodeData}}"></div>
+                <p>{{code}}</p>
+            </div>
+        </li>
+        {{/if}}
+    </ul>
+    {{/each}} {{/result}}
+</div>
+<script type="text/javascript">
+var codeDiv = document.querySelectorAll(".qrcode-img");
+for (var i = 0; i < codeDiv.length; i++) {
+    var code = codeDiv[i].getAttribute("data-qrcode")
+    var qrcode = new QRCode(codeDiv[i], {
+        text: code,
+        width: 150,
+        height: 150
+    })
+}
+</script>

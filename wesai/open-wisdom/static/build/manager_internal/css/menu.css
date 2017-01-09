@@ -1,0 +1,165 @@
+/*menu*/
+
+.edit-menu {
+    background-color: #f4f5f9;
+    border: solid 1px #ddd;
+    width: 320px;
+    height: 380px;
+}
+.edit-menu .no-edit {
+    line-height: 380px;
+    text-align: center;
+}
+.edit-menu .menu-tip,
+.edit-menu .url-tip {
+    padding-top: 5px;
+}
+.pre-mpmenu {
+    width: 320px;
+    border: solid 1px #ddd;
+    height: 380px;
+}
+.pre-mpmenu .curr_menu {
+    color: #44b549;
+    border-color: #44b549;
+    cursor: pointer;
+}
+.pre-mpmenu .phone-box {
+    overflow: hidden;
+    position: relative;
+    height: 380px;
+}
+.pre-mpmenu .phone-box .phone-head {
+    line-height: 30px;
+    background: #333;
+    color: #fff;
+}
+.pre-mpmenu .phone-box .phone-foot {
+    height: 34px;
+    line-height: 34px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+.pre-mpmenu .phone-box .phone-foot .menulist .menu-btn {
+    float: left;
+    cursor: pointer;
+    width: 33.3%;
+    border-radius: 0;
+    overflow: visible;
+    position: relative;
+    border-top: solid 1px #eee;
+    border-right: solid 1px #eee;
+    text-align: center;
+}
+.pre-mpmenu .phone-box .phone-foot .menulist .menu-btn strong {
+    display: block;
+}
+.pre-mpmenu .phone-box .phone-foot .menulist .menu-btn ul {
+    position: absolute;
+    bottom: 34px;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    border: solid 1px #eee;
+}
+.pre-mpmenu .phone-box .phone-foot .menulist .menu-btn ul li {
+    line-height: 22px;
+    text-align: center;
+    border-top: solid 1px #eee;
+    padding: 5px 0;
+    overflow: hidden;
+    border-radius:2px;
+}
+.pre-mpmenu .phone-box .phone-foot .menulist .menu-btn:hover ul {
+    display: block;
+}
+.pre-mpmenu .phone-box .phone-foot .sortable-mod .menu-btn {
+    cursor: move !important;
+}
+.pre-mpmenu .phone-box .phone-foot .sortable-mod .plus {
+    display: none;
+}
+.preview-mpmenu {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid #adaeb1;
+}
+.preview-mpmenu #footNav {
+    width: 100%;
+    position:absolute;
+    left: 0;
+    bottom:0;
+}
+.preview-mpmenu #fNav {
+    display: block;
+    margin: 0 auto;
+    border-top: 1px solid #fefefe;
+    height: 44px;
+    width:320px;
+    padding: 0 5px;
+}
+.preview-mpmenu #fNav li {
+    width: 33%;
+    float: left;
+    text-align: center;
+    line-height: 44px;
+    color: #444;
+    font-size: 14px;
+    position: relative;
+    cursor: pointer;
+}
+.preview-mpmenu #fNav li:last-child,
+.preview-mpmenu #fNav li div a:last-child {
+    background-image: none;
+}
+.preview-mpmenu #fNav li img {
+    background: url(../img/mnico.png) no-repeat 0 center;
+    background-size: 12px;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-top: -3px;
+}
+.preview-mpmenu #fNav li img.post {
+    background-image: url(../img/mnpos.png);
+    background-size: 15px;
+}
+.preview-mpmenu #fNav li div {
+    display: none;
+    background-color: #f1f1f1;
+    border: 1px solid #afafaf;
+    border-radius: 1px;
+    position: absolute;
+    left: 0;
+    bottom: 55px;
+    width: 100%;
+}
+.preview-mpmenu #fNav li div a {
+    white-space: nowrap;
+    display: block;
+    font-size: 13px;
+    line-height: 30px;
+    width: 100%;
+    overflow: hidden;
+}
+.preview-mpmenu .show {
+    display: block !important;
+}
+.preview-mpmenu #fNav li div a.on {
+    color: #f80;
+}
+.preview-mpmenu #fNav li div i {
+    width: 14px;
+    height: 12px;
+    display: block;
+    background: url(../img/mnarr.png) no-repeat 0 0;
+    position: absolute;
+    left: 50%;
+    margin-left: -5px;
+    bottom: -12px;
+    overflow: hidden;
+    background-size: 68%;
+}
